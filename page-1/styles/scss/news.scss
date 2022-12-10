@@ -1,0 +1,94 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 50.6rem;
+}.news-25P {
+  background-color: #121111;
+  box-sizing: border-box;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1.7rem 2.2rem 4.1rem 2.2rem;
+  overflow: hidden;
+  position: relative;
+
+  .all-news-xDw {
+    flex-shrink: 0;
+    margin: 0rem 7.1rem 4.4rem 0rem;
+    font-size: 1.6rem;
+    font-weight: 800;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+  }
+  .auto-group-shwo-eMf {
+    flex-shrink: 0;
+    margin-right: 10.9rem;
+    width: calc(100% - 10.9rem);
+    height: 10.8rem;
+    display: flex;
+    align-items: flex-start;
+
+    .auto-group-v3g5-wrZ {
+      flex-direction: column;
+      flex-shrink: 0;
+      margin-right: 4.4rem;
+      display: flex;
+
+      .a5235061fed213b6c49f1885ddc14bd3e9b33mv2-1-hKw {
+        width: 14rem;
+        height: 7.8rem;
+        object-fit: cover;
+        vertical-align: top;
+        flex-shrink: 0;
+      }
+      .about-derivarings-cho {
+        font-family: Inter, 'Source Sans Pro';
+        white-space: nowrap;
+        flex-shrink: 0;
+        font-size: 1.6rem;
+        font-weight: 800;
+        line-height: 1.2125;
+        color: #ffffff;
+      }
+    }
+    .auto-group-ebhb-Y5f {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      height: 100%;
+
+      .images-1-W2V {
+        width: 16.8rem;
+        height: 8.8rem;
+        object-fit: cover;
+        vertical-align: top;
+        flex-shrink: 0;
+      }
+      .business-and-politics-Ez5 {
+        white-space: nowrap;
+        flex-shrink: 0;
+        font-size: 1.6rem;
+        font-weight: 800;
+        line-height: 1.2125;
+        color: #ffffff;
+        font-family: Inter, 'Source Sans Pro';
+      }
+    }
+  }
+}

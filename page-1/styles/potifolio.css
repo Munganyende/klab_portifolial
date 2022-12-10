@@ -1,0 +1,66 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 50.6rem;
+}.potifolio-11K {
+  box-sizing: border-box;
+  padding: 2.4rem 2.8rem 2.4rem 4.2rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #121111;
+}
+.potifolio-11K .collage-summer-beach-maldives-images-20357645-1-ve5 {
+  margin: 2.9rem 3.2rem 0rem 0rem;
+  width: 12.7rem;
+  height: 8.7rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.potifolio-11K .auto-group-hn25-2SD {
+  margin: 0rem 3.3rem 3.3rem 0rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.potifolio-11K .auto-group-hn25-2SD .portifolio-MDb {
+  margin-bottom: 4.2rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.potifolio-11K .auto-group-hn25-2SD .photo-1656666301030-259646d0295f-1-SVw {
+  margin-left: 0.1rem;
+  width: 11rem;
+  height: 8.7rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.potifolio-11K .rohan-makhecha-jw3gozxiskw-unsplash-1-wBo {
+  margin-top: 2.9rem;
+  width: 13.3rem;
+  height: 8.7rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
