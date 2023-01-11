@@ -11,6 +11,11 @@
       background-color: black;
       scroll-behavior: smooth;
   }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
   
   .navbar {
     background-color: black;
@@ -24,13 +29,15 @@
     height: 15%;
   }
   .logo{
-      padding:14px 16px ;
+    /* padding: 5px 4px; */
+    padding-top: 0%;
   }
+
   .logo a{
     display: flex;
     color: #f2f2f2;
     text-align: center;
-    /* padding: 10px 12px; */
+    padding: 5px 4px;
     text-decoration: none;
     font-size: 30pt;
     justify-content: center;
@@ -43,6 +50,12 @@
       color: #5e9e9f;
 
   }
+
+  .logo img{
+    width: 80px; 
+    height: 80px
+  }
+
   .links
   {
       display: flex;
@@ -64,23 +77,27 @@
   }
 
   .home {
-    padding: 160px;
+    padding-top: 70px;
     margin-top: 30px;
     height: 100vh;
   }
+
   .righttext
   {
+    padding-top: 70px;
     color: white;
-    width: 95%;
+    width: 100%;
     text-align: center;
 
   }
+  
   .righttext h1{
     font-size: 40pt;
     font-weight: bold;
     font-family: 'Inter';
   
   }
+
   .righttext h1 span{
     color: #5e9e9f;
     font-size: 40pt;
@@ -98,15 +115,17 @@
     display: inline-block;
     font-size: 24px;
     border-radius: 50px;
-    margin-top:15%;
+    margin-top: 5%;
     padding: 25px;
   }
+
   .news
   {
-    padding: 180px;
-    height: 100vh;
+    margin-top: 120px;
+    padding: 0px 180px 10px 180px;
+    /* height: 100vh; */
     text-align: center;
-    width: 100vw;
+    /* width: 100vw; */
   }
   
   .news h1, span{
@@ -114,7 +133,9 @@
     font-weight: bold;
     font-family: 'Inter';
     color:white;
+    margin-bottom: 30px;
   }
+
   .news h1::after{
     content: '';
     width: 4px;
@@ -123,9 +144,11 @@
     color: #5e9e9f;
     position: absolute;
   }
+
   .news h1 span{
     color: #5e9e9f;
   }
+
   .post
   {
     display: flex;
@@ -134,16 +157,16 @@
     align-items: center;
     width: 100%;
   }
+
   .newpost{
+    border: 1px solid white;
     background-color: #706B6B;
-    width: 50%;
-    margin: 20px;
+    width: 100%;
+    height: 300px;
+    margin: 0px 20px 0px 20px;
     /* justify-content: center; */
   }
-  .newpost img 
-  {
-    width: 100%;
-  }
+
   .newpost figcaption
   {
     font-size: 20pt;
@@ -152,19 +175,28 @@
     font-weight: bold;
   }
   
+  .newpost-img {
+    width: 100%;
+    height: 210px;
+    margin-bottom: 10px;
+  }
+  
   .portifolio
   {
-  
-    padding: 180px;
-    height: 100vh;
+    margin-top: 120px;
+    padding: 0px 180px 10px 180px;
+    /* height: 100vh; */
     text-align: center;
   }
+
   .portifolio h1, span{
     font-size: 30pt;
     font-weight: bold;
     font-family: 'Inter';
     color:white;
+    margin-bottom: 20px;
   }
+
   .portifolio h1::after{
     content: '';
     width: 4px;
@@ -173,6 +205,7 @@
     color: #5e9e9f;
     position: absolute;
   }
+
   .portifolio h1 span{
     color: #5e9e9f;
   }
@@ -181,27 +214,33 @@
   {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 200px;
+    grid-template-rows: 300px;
     background-color: #2196F3;
     padding: 10px;
+     height: 300px;
   }
+  
   .portinfo
   {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
     text-align: center;
     align-items: center;
+    width: 320px;
+    height: 280px;
   }
   
   
   .about
   {
-    padding: 100px;
-    height: 100vh;
+    margin-top: 120px;
+    padding: 0px 180px 0px 180px;
+    /* height: 70vh; */
     text-align: center;
   }
+  
   .about h1, span{
     font-size: 30pt;
     font-weight: bold;
@@ -252,9 +291,10 @@
   
   .contact
   {
-    padding: 100px;
+    padding-right: 100px;
     height: 100vh;
     text-align: center;
+    margin-top: 120px;
   }
   .contact h1, span{
     font-size: 30pt;
